@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+}
+.marginleft{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.marginall{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.marginall1{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.paddingall{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+.mycont img{
+    height: 100%;
+}
+.mycont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.myinfo{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 500px; */
+    /* background-color: blue; */
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4.6%;
+    /* background-color: red; */
+    height: 30vh;
+}
+.myimg{
+    /* background-color: red; */
+    width: 500px;
+    transition: 0.5s;
+}
+.myform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* 
+.hg{
+    opacity: 0;
+    filter: blur(5px);
+}
+.sh{
+    filter: blur(5px);
+    transition: all 4s;
+    opacity: 1;
+} */
+/* ----------------------------------About Page------------------------------------------------- */
+
+
+.myabout{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .carousel {
+    width:60vw;
+    height:30vw;
+  } */
+
+
+
+
+  /* -----------------------------------------animation---------------------------- */
+
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
+
+.second{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
+.three{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
+.four{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
+.second{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
+.second{
+    height: 500px;
+    width: 500px;
+    border: 2px solid red;
+}
+.hidden1{
+    opacity: 0;
+    /* filter: blur(5px); */
+    transition: all 1s;
+}
+.show{
+    /* filter: blur(5px); */
+    opacity: 1;
+}
+.certi{
+    transition: 0.3s;
+}
+.certi:hover{
+    transform: scale(1.02);
+}
+.myfirstbutton{
+    cursor: pointer;
+}
+.myfirstbutton:hover .firstcontent{
+    /* visibility: visible; */
+    background-color: green;
+}
+.firstcontent{
+    /* visibility: hidden; */
+    background-color: red;
+}
