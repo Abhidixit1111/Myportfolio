@@ -2,8 +2,8 @@ body{
     background-color: black;
 }
 .marginleft{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .marginall{
     margin-top: 20%;
@@ -43,6 +43,10 @@ body{
     padding-top: 4.6%;
     /* background-color: red; */
     height: 30vh;
+    /* transform: translateX(45px); */
+}
+.mycolor{
+    animation: animey 10s linear infinite;
 }
 .myimg{
     /* background-color: red; */
@@ -124,7 +128,7 @@ body{
 .hidden1{
     opacity: 0;
     /* filter: blur(5px); */
-    transition: all 1s;
+    transition: all 2s;
 }
 .show{
     /* filter: blur(5px); */
@@ -146,4 +150,14 @@ body{
 .firstcontent{
     /* visibility: hidden; */
     background-color: red;
+}
+
+@keyframes animey {
+    25%{color: rgb(242, 235, 235);}
+    100%{color: rgb(9, 245, 9);}
+    75%{color: rgb(17, 0, 255);}
+    50%{color: rgba(242, 8, 8, 0.61);}
+}
+.footer >a{
+    padding: 0% 3%;
 }
